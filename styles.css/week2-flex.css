@@ -1,0 +1,30 @@
+.flex-container{
+    width: 600px;
+    display: flex;
+    background-color: aqua;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+.box{
+    flex: 1;
+}
+
+/* .box-1{ 
+/* background-color: chartreuse; */
+/* flex: 2; */
+/* order: 3;  } */
+
+.box-2{
+    background-color: aqua;
+    order: 1;
+}
+
+.box-3{
+    background-color: blueviolet;
+    order: 4;
+}
+
+.box-4{
+    background-color: darkorange;
+    order: 2;
+}
