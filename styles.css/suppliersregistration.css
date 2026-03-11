@@ -1,0 +1,159 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.sidebar {
+  /* flex: 1; */
+  border-width: 1px;
+  border-color: black;
+  border-right-style: solid;
+  height: 210vh;
+  /* padding: 10px; */
+}
+
+.container{
+  display: flex;
+  gap: 3px;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 20px;
+  flex-direction: row;
+  height: 210vh;
+  weight: 100%;
+  border: 1px solid black;
+  background-color: bisque;
+}
+
+.context{
+  border-radius: 15px;
+  display: flex;
+  height: 240vh;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 25px;
+  margin: 25px;
+  flex: 3;
+
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  column-gap: 10px;
+  border-radius:5px;
+}
+h1{
+  text-align: center;
+}
+h2{
+text-align: center;
+}
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+h5{
+  text-align: center;
+}
+h6{
+  text-align: center;
+}
+/* h7{ */
+  /* text-align: center; */
+/* } */
+.input-container {
+  display: flex;
+  column-gap: 10px;
+  flex-direction: row;
+}
+option{
+  height: 30px;
+}
+select{
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+textarea {
+  /* This single line enables auto-expansion based on content */
+  field-sizing: content;
+
+  /* Optional: Set a minimum height for when it's empty */
+  min-height: 100px; 
+
+  /* Optional: Basic styling */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  resize: none;} /* Prevents man
+
+
+
+
+
+
+
