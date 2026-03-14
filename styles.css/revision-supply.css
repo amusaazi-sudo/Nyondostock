@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* border-right: 1px solid black; optional */
+  border: 2px double black;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.content {
+  flex: 3; /* gives more space to content */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px double black;
+  border-radius: 10px;
+  background-color: gray;
+}
+.sidebar a{
+    display: flex;
+    /* height: 15px; */
+    padding: 5px;
+    margin: 10px;
+}
+.input-container{
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    
+}
+.input-section{
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    /* margin: 10px; */
+    /* width: 25vh; */
+    /* height: 10vh; */
+}
+.input-section input{
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+input, label{
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+    
